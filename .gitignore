@@ -9,9 +9,9 @@ venv/
 .DS_Store
 Thumbs.db
 
-# Ignore real or uploaded transaction data
-data/raw/*.csv
-!data/raw/synthetic_transactions.csv
+# # Ignore real or uploaded transaction data
+# data/raw/*.csv
+# !data/raw/synthetic_transactions.csv
 
 # Ignore processed outputs
 data/processed/*.csv
