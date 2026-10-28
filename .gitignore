@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Ignore real or uploaded transaction data
+data/raw/*.csv
+!data/raw/synthetic_transactions.csv
+
+# Ignore processed outputs
+data/processed/*.csv
